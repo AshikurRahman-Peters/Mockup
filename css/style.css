@@ -80,7 +80,7 @@ a:hover{
 	height:1px;
 	width: 20%;
 	background-color: black;
-	top: 80%;
+	top: 77%;
 	left:55%;
 }
 .line::after{
@@ -89,7 +89,7 @@ a:hover{
 	height:1px;
 	width: 20%;
 	background-color: black;
-	top: 80%;
+	top: 77%;
 	left:25%;
 }
 #section-one i{
@@ -121,7 +121,7 @@ footer li{
 footer i{
 	color: #fff;
 	padding: 10px;
-	font-size: 30px;
+	font-size: 25px;
 }
 footer img{
 	margin: 0 auto;
@@ -146,13 +146,13 @@ footer p{
 	color: #FF455C;
 	padding-top: 40px;
 	}
-		.line::before{
+	.line::before{
 		content: '';
 		position: absolute;
 		height:1px;
 		width: 20%;
 		background-color: black;
-		top: 88%;
+		top: 80%;
 		left:55%;
 	}
 	.line::after{
@@ -161,7 +161,7 @@ footer p{
 		height:1px;
 		width: 20%;
 		background-color: black;
-		top: 88%;
+		top: 80%;
 		left:25%;
 	}
 }
