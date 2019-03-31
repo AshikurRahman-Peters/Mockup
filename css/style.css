@@ -1,0 +1,56 @@
+/*
+
+*******************************************
+*******************************************
+
+==== CSS INDEX
+
+01 - IMPORTED CSS
+02 - DEFAULT CSS
+03 - NAV CSS
+04 - BANNER SECTION CSS
+05 - ABOUT SECTION CSS
+06 - SERVICE SECTION CSS
+07 - WORK SECTION CSS
+08 - TESTIMONIAL SECTION CSS
+09 - BLOG SECTION CSS
+10 - CONTACT SECTION CSS
+11 - HIRE SECTION CSS
+12 - FOOTER SECTION CSS
+
+*/
+
+/*================================================
+01 - IMPORTED CSS
+==================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/*================================================
+02 - DEFAULT CSS
+==================================================*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 2.5;
+}
+h1{
+	color: #150F31;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+
+}
+
+i{
+	color: #FF3C43;
+}
+
