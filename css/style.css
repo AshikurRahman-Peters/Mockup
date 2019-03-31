@@ -132,7 +132,10 @@ footer p{
 	color: #fff;
 
 }
+#flex { display: flex; flex-direction: column; }
+#a { order: 2; }
 
+#c { order: 3; }
 /*================ Normal desktop :992px.==================== */
 @media (min-width: 992.98px) and (max-width: 1169.98px) {
 	h2{
@@ -174,8 +177,10 @@ footer p{
 	h2{
 		font-size: 26px;
 	}
+	#b { order: 1; }
+	#a { order: 2; }
 	#sectone-one .top{
-		order: 1;
+		order: 0;
 	}
 	.arrow {
 	font-size: 30px;
@@ -210,8 +215,15 @@ footer p{
 	h2{
 		font-size: 24px;
 	}
-		#job-post .top{
-		order: 1;
+	#b { order: 1; }
+	#a { order: 2; }
+	#section-two{
+}
+	#section-two img{
+		bottom: 0%;
+		}	} 
+	#section-two.top{
+		order: 0;
 	}
 	.arrow {
 	font-size: 20px;
@@ -248,9 +260,11 @@ footer p{
 	h2{
 		font-size: 22px;
 	}
-		#job-post .top{
-		order: 1;
-	}
+	#b { order: 1; }
+	#a { order: 2; }
+	#section-two img{
+		
+		}
 	.arrow {
 	font-size: 20px;
 	color: #FF455C;
