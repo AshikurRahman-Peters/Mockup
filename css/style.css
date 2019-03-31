@@ -33,7 +33,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: 400;
 	line-height: 2.5;
 }
@@ -54,11 +54,18 @@ h6 {
 
 }
 
-#job-post i{
+#section-one i{
 	padding-right: 10px;
+	color: #FF455C;
 }
-i{
-	color: #FF3C43;
+#section-two i{
+	padding-right: 10px;
+	color: #FF455C;
+}
+.arrow {
+	font-size: 44px;
+	color: #FF455C;
+	padding-top: 40px;
 }
 
 /*Foteer CSS*/
@@ -106,7 +113,7 @@ footer p{
 	h2{
 		font-size: 26px;
 	}
-	#job-post .top{
+	#sectone-one .top{
 		order: 1;
 	}
 }
