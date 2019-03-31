@@ -53,7 +53,45 @@ h6 {
 	padding: 0;
 
 }
-
+ a{
+	color: white;
+}
+a:hover{
+	color:#FF455C;
+}
+#hadder button{
+	background-color: #150F31;
+	color: white;
+	text-align: center;
+	width: 100%;
+    border-radius: 20px;
+}
+.top-img{
+	position: relative;
+}
+.top-img .img-2{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.line::before{
+	content: '';
+	position: absolute;
+	height:1px;
+	width: 20%;
+	background-color: black;
+	top: 80%;
+	left:55%;
+}
+.line::after{
+	content: '';
+	position: absolute;
+	height:1px;
+	width: 20%;
+	background-color: black;
+	top: 80%;
+	left:25%;
+}
 #section-one i{
 	padding-right: 10px;
 	color: #FF455C;
@@ -107,7 +145,25 @@ footer p{
 	font-size: 40px;
 	color: #FF455C;
 	padding-top: 40px;
-}
+	}
+		.line::before{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:55%;
+	}
+	.line::after{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:25%;
+	}
 }
 
 /*================ Tablet desktop :768px.==================*/
@@ -125,7 +181,25 @@ footer p{
 	font-size: 30px;
 	color: #FF455C;
 	padding-top: 0px;
-}
+	}
+	.line::before{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:55%;
+	}
+	.line::after{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:25%;
+	}
 }
 
 /*================== small mobile :320px. ===================*/
@@ -143,7 +217,25 @@ footer p{
 	font-size: 20px;
 	color: #FF455C;
 	padding-top: 0px;
-}
+	}
+	.line::before{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:55%;
+	}
+	.line::after{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:25%;
+	}
 
 }
 
@@ -159,10 +251,28 @@ footer p{
 		#job-post .top{
 		order: 1;
 	}
-		.arrow {
+	.arrow {
 	font-size: 20px;
 	color: #FF455C;
 	padding-top: 0px;
-}
+	}
+	.line::before{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:55%;
+	}
+	.line::after{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 88%;
+		left:25%;
+	}
 
 }
