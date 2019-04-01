@@ -1,7 +1,7 @@
 
 
-
 /*================ Normal desktop :992px.==================== */
+
 @media (min-width: 992.98px) and (max-width: 1169.98px) {
 	h1,h2{
 		font-size: 26px;
@@ -36,8 +36,8 @@
 
 
 
-
 /*================ Tablet desktop :768px.==================*/
+
 @media (min-width: 768.98px) and (max-width: 991.98px) {
 	p{
 		font-size: 14px;
@@ -77,6 +77,7 @@
 
 
 /*================== small mobile :320px. ===================*/
+
 @media (max-width: 767.98px) {
 	p{
 		font-size: 14px;
@@ -131,6 +132,7 @@
 
 
 /* ======================Large Mobile :480px.================== */
+
 @media only screen and (max-width: 480.98px) and (max-width: 767.98px) {
 	p{
 		font-size: 14px;

@@ -1,209 +1,238 @@
-/*
+	/*
 
-*******************************************
-*******************************************
+	*******************************************
+	*******************************************
 
-==== CSS INDEX
+	==== CSS INDEX
 
-01 - IMPORTED CSS
-02 - DEFAULT CSS
-03 - NAV CSS
-04 - BANNER SECTION CSS
-05 - ABOUT SECTION CSS
-06 - SERVICE SECTION CSS
-07 - WORK SECTION CSS
-08 - TESTIMONIAL SECTION CSS
-09 - BLOG SECTION CSS
-10 - CONTACT SECTION CSS
-11 - HIRE SECTION CSS
-12 - FOOTER SECTION CSS
+	01 - IMPORTED CSS
+	02 - DEFAULT CSS
+	03 - NAV CSS
+	04 - BANNER SECTION CSS
+	05 - ABOUT SECTION CSS
+	06 - SERVICE SECTION CSS
+	07 - WORK SECTION CSS
+	08 - TESTIMONIAL SECTION CSS
+	09 - BLOG SECTION CSS
+	10 - CONTACT SECTION CSS
+	11 - HIRE SECTION CSS
+	12 - FOOTER SECTION CSS
 
-*/
+	*/
+
+	/*================================================
+	01 - IMPORTED CSS
+	==================================================*/
+
+	@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+	/*================================================
+	02 - DEFAULT CSS
+	==================================================*/
+	html {
+	  scroll-behavior: smooth;
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 2.5;
+	}
+
+	h1{
+		color: #150F31;
+	}
+	p{
+		margin: 0px;
+	}
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 0;
+		padding: 0;
+
+	}
+	 a{
+		color: white;
+	}
+	a:hover{
+		color:#FF455C;
+	}
+
+
+
+	
+
+	/*================================================
+	02 - NAVBAR CSS
+	==================================================*/
+
+	.navbar-default{
+	  transition:500ms ease;
+	  background:transparent;
+	}
+	.navbar-default.scrolled{
+	  background:rgb(0,0,0,0.6);
+	}
+
 
 /*================================================
-01 - IMPORTED CSS
+	02 - NAVBAR CSS
 ==================================================*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+	#hadder button{
+		background-color: #150F31;
+		color: white;
+		width: 100%;
+	    border-radius: 20px;
+	}
+	#hadder h1, p{
+		line-height: 30px;
+	}
+	.hadder-text{
+		margin-left:80px;
+		margin-right: 80px;
+	}
+
+	.top-img{
+		position: relative;
+	}
+	.top-img .img-2{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.search input{
+		border: 0px;
+	}
+	.search input{
+		border-bottom: : 1px solid red;
+	}
+
+	.line::before{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 75%;
+		left:55%;
+	}
+	.line::after{
+		content: '';
+		position: absolute;
+		height:1px;
+		width: 20%;
+		background-color: black;
+		top: 75%;
+		left:25%;
+	}
+	.search-container input{
+		border:0px;
+
+	}
+	.search-container{
+			border-bottom: 1px solid black;
+			top:0%;
+			bottom: 0%;
+	}
+/*================================================
+	02 - NEW ID CSS
+==================================================*/
+	#New{
+		background: url('../asset/hadder-bg.png');
+		background-position: center center;
+		background-size: cover;
+		
+	}
+
+	#New  ul{
+		padding: 0;
+	}
+	#New li{
+		list-style: none;
+		display: inline-block;
+	}
+	#New i{
+		color: #fff;
+		padding: 20px;
+		font-size: 50px;
+	}
+	#new button, input{
+		width: 100%;
+		background-color: #DB3539;
+		border: 0px;
+		text-align: center;
+		margin-bottom: 50px;
+		
+	}
+	.input-group{
+		margin-top: 40px;
+	} 
 
 /*================================================
-02 - DEFAULT CSS
+	02 - SECTION ONE ID CSS
 ==================================================*/
-html {
-  scroll-behavior: smooth;
-}
-body {
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-size: 19px;
-	font-weight: 400;
-	line-height: 2.5;
-}
-
-h1{
-	color: #150F31;
-}
-p{
-	margin: 0px;
-}
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-	padding: 0;
-
-}
- a{
-	color: white;
-}
-a:hover{
-	color:#FF455C;
-}
-
-.navbar-default{
-  transition:500ms ease;
-  background:transparent;
-}
-.navbar-default.scrolled{
-  background:rgb(0,0,0,0.6);
-}
-#hadder button{
-	background-color: #150F31;
-	color: white;
-	width: 100%;
-    border-radius: 20px;
-}
-#hadder h1, p{
-	line-height: 30px;
-}
-.hadder-text{
-	margin-left:80px;
-	margin-right: 80px;
-}
-
-.top-img{
-	position: relative;
-}
-.top-img .img-2{
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.search input{
-	border: 0px;
-}
-.search input{
-	border-bottom: : 1px solid red;
-}
+	#section-one h1{
+		font-size: 50px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	#section-one i{
+		padding-right: 10px;
+		color: #FF455C;
+	}
+	#flex { 
+		display: flex;
+		flex-direction: column;
+		 }
 
 
+/*================================================
+	02 - SECTION TWO ID CSS
+==================================================*/
 
-.line::before{
-	content: '';
-	position: absolute;
-	height:1px;
-	width: 20%;
-	background-color: black;
-	top: 75%;
-	left:55%;
-}
-.line::after{
-	content: '';
-	position: absolute;
-	height:1px;
-	width: 20%;
-	background-color: black;
-	top: 75%;
-	left:25%;
-}
-.search-container input{
-	border:0px;
+	#section-two i{
+		padding-right: 10px;
+		color: #FF455C;
+	}
+	.arrow {
+		font-size: 44px;
+		color: #FF455C;
+		padding-top: 40px;
+	}
 
-}
-.search-container{
-		border-bottom: 1px solid black;
-		top:0%;
-		bottom: 0%;
-}
-#New{
-	background: url('../asset/hadder-bg.png');
-	background-position: center center;
-	background-size: cover;
-	
-}
+/*================================================
+02 - FOOTER CSS
+==================================================*/
 
-#New  ul{
-	padding: 0;
-}
-#New li{
-	list-style: none;
-	display: inline-block;
-}
-#New i{
-	color: #fff;
-	padding: 20px;
-	font-size: 50px;
-}
-#new button, input{
-	width: 100%;
-	background-color: #DB3539;
-	border: 0px;
-	text-align: center;
-	margin-bottom: 50px;
-	
-}
-.input-group{
-	margin-top: 40px;
-} 
-#section-one h1{
-	font-size: 50px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-#section-one i{
-	padding-right: 10px;
-	color: #FF455C;
-}
-#section-two i{
-	padding-right: 10px;
-	color: #FF455C;
-}
-.arrow {
-	font-size: 44px;
-	color: #FF455C;
-	padding-top: 40px;
-}
+	footer{
+		background-color: #1f1f4e;
+		
+	}
+	footer ul{
+		padding: 0;
+	}
+	footer li{
+		list-style: none;
+		display: inline-block;
+	}
+	footer i{
+		color: #fff;
+		padding: 10px;
+		font-size: 25px;
+	}
+	footer img{
+		margin: 0 auto;
+	    display: block;
+	}
+	footer p{
+		margin: 0;
+		color: #fff;
+		font-size: 15px;
 
-/*Foteer CSS*/
-footer{
-	background-color: #1f1f4e;
-	
-}
-footer ul{
-	padding: 0;
-}
-footer li{
-	list-style: none;
-	display: inline-block;
-}
-footer i{
-	color: #fff;
-	padding: 10px;
-	font-size: 25px;
-}
-footer img{
-	margin: 0 auto;
-    display: block;
-}
-footer p{
-	margin: 0;
-	color: #fff;
-	font-size: 15px;
-
-}
-#flex { 
-	display: flex;
-	flex-direction: column;
-	 }
+	}
