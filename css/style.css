@@ -85,7 +85,7 @@
 	  background:transparent;
 	}
 	.navbar-default.scrolled{
-	  background:rgb(0,0,0,0.6);
+	  background: rgb(0,0,0,0.6);
 	}
 
 
@@ -110,7 +110,9 @@
 		height: 10px;
 		border-radius: 12px;
 	}
-	
+	.w-100{
+		width: auto;
+	}
 	.top-img{
 		position: relative;
 	}
@@ -123,7 +125,7 @@
 		border: 0px;
 	}
 	.search input{
-		border-bottom: : 1px solid red;
+		border-bottom: 1px solid red;
 	}
 
 	.line::before{
