@@ -16,12 +16,15 @@
 
   
 
-    <title>Hello, world!</title>
+    <title>Mockup</title>
   </head>
     <body>
-
-
-        <!-- Navigation -->
+<!--CSS Spinner-->
+    <div class="preloder">
+        <img src="asset/loder.gif">
+    </div>
+<div class="content">
+<!-- Navigation -->
 
     <nav class="navbar navbar-default navbar-expand-lg navbar-light  fixed-top nav-1">
         <div class="container-fluid ">
@@ -53,7 +56,7 @@
         </div>
     </nav>
  
-    <!-- ./hadder section -->
+<!-- ./hadder section -->
     <div id="hadder" class=" " >
         <div class=" container-fluid">
             <div class="row ">
@@ -218,18 +221,18 @@
                         <a href=""><img class="img-fluid" alt="Responsive image" src="asset/logo.png"></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <address class="text-right">
+                <div class="col-lg-4 col-md-12 text-right">
+                  
                         <p>Fulham Rd, Fulham, London</p>
                         <p>SW6 1HS, UK</p>
                         <p>+92-0000000000, +98-00000000000</p>
-                    </address>
+                
                 </div>
             </div>
         </div>
     </footer>
 
-
+</div>
 <!--end footer from section-->
 
 
@@ -240,7 +243,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
      <script type="text/javascript">
      
     // navbar background color change on scroll
@@ -249,7 +255,13 @@
         $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
     });
      </script>
-
+     <script type="text/javascript">
+         $(function(){
+            $(".preloder").fadeOut(200, function(){
+                $(".content").fadeIn(1000);
+            });
+         });
+     </script>
 
   </body>
 </html>
