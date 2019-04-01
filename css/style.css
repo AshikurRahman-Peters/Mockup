@@ -106,7 +106,11 @@
 		margin-left:80px;
 		margin-right: 80px;
 	}
-
+	#carouselExampleIndicators ol li{
+		height: 10px;
+		border-radius: 12px;
+	}
+	
 	.top-img{
 		position: relative;
 	}
@@ -127,8 +131,8 @@
 		position: absolute;
 		height:1px;
 		width: 20%;
-		background-color: black;
-		top: 75%;
+		background-color: rgb(0,0,0,0.4);
+		top: 67%;
 		left:55%;
 	}
 	.line::after{
@@ -136,8 +140,8 @@
 		position: absolute;
 		height:1px;
 		width: 20%;
-		background-color: black;
-		top: 75%;
+		background-color: rgb(0,0,0,0.4);
+		top: 67%;
 		left:25%;
 	}
 	.search-container input{
@@ -168,8 +172,9 @@
 	}
 	#New i{
 		color: #fff;
-		padding: 20px;
+		padding: 18px;
 		font-size: 50px;
+		margin-bottom: 20px;
 	}
 	#new button, input{
 		width: 100%;
