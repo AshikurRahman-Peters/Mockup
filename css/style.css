@@ -62,10 +62,17 @@ a:hover{
 #hadder button{
 	background-color: #150F31;
 	color: white;
-	text-align: center;
 	width: 100%;
     border-radius: 20px;
 }
+#hadder h1, p{
+	line-height: 30px;
+}
+.hadder-text{
+	margin-left:80px;
+	margin-right: 80px;
+}
+
 .top-img{
 	position: relative;
 }
@@ -74,13 +81,22 @@ a:hover{
 	top: 0;
 	left: 0;
 }
+.search input{
+	border: 0px;
+}
+.search input{
+	border-bottom: : 1px solid red;
+}
+
+
+
 .line::before{
 	content: '';
 	position: absolute;
 	height:1px;
 	width: 20%;
 	background-color: black;
-	top: 77%;
+	top: 75%;
 	left:55%;
 }
 .line::after{
@@ -89,8 +105,52 @@ a:hover{
 	height:1px;
 	width: 20%;
 	background-color: black;
-	top: 77%;
+	top: 75%;
 	left:25%;
+}
+.search-container input{
+	border:0px;
+
+}
+.search-container{
+		border-bottom: 1px solid black;
+		top:0%;
+		bottom: 0%;
+}
+#New{
+	background: url('../asset/hadder-bg.png');
+	background-position: center center;
+	background-size: cover;
+	
+}
+
+#New  ul{
+	padding: 0;
+}
+#New li{
+	list-style: none;
+	display: inline-block;
+}
+#New i{
+	color: #fff;
+	padding: 20px;
+	font-size: 50px;
+}
+#new button, input{
+	width: 100%;
+	background-color: #DB3539;
+	border: 0px;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+.input-group{
+	margin-top: 40px;
+} 
+#section-one h1{
+	font-size: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #section-one i{
 	padding-right: 10px;
@@ -132,161 +192,7 @@ footer p{
 	color: #fff;
 
 }
-#flex { display: flex; flex-direction: column; }
-#a { order: 2; }
-
-#c { order: 3; }
-/*================ Normal desktop :992px.==================== */
-@media (min-width: 992.98px) and (max-width: 1169.98px) {
-	h2{
-		font-size: 28px;
-	}
-	p{
-		font-size: 16px;
-	}
-	.arrow {
-	font-size: 40px;
-	color: #FF455C;
-	padding-top: 40px;
-	}
-	.line::before{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 80%;
-		left:55%;
-	}
-	.line::after{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 80%;
-		left:25%;
-	}
-}
-
-/*================ Tablet desktop :768px.==================*/
-@media (min-width: 768.98px) and (max-width: 991.98px) {
-	p{
-		font-size: 14px;
-	}
-	h2{
-		font-size: 26px;
-	}
-	#b { order: 1; }
-	#a { order: 2; }
-	#sectone-one .top{
-		order: 0;
-	}
-	.arrow {
-	font-size: 30px;
-	color: #FF455C;
-	padding-top: 0px;
-	}
-	.line::before{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 88%;
-		left:55%;
-	}
-	.line::after{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 88%;
-		left:25%;
-	}
-}
-
-/*================== small mobile :320px. ===================*/
-@media (max-width: 767.98px) {
-	p{
-		font-size: 14px;
-	}
-	h2{
-		font-size: 24px;
-	}
-	#b { order: 1; }
-	#a { order: 2; }
-	#section-two{
-}
-	#section-two img{
-		bottom: 0%;
-		}	} 
-	#section-two.top{
-		order: 0;
-	}
-	.arrow {
-	font-size: 20px;
-	color: #FF455C;
-	padding-top: 0px;
-	}
-	.line::before{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 88%;
-		left:55%;
-	}
-	.line::after{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 88%;
-		left:25%;
-	}
-
-}
-
-
-/* ======================Large Mobile :480px.================== */
-@media only screen and (min-width: 480.98px) and (max-width: 767.98px) {
-	p{
-		font-size: 14px;
-	}
-	h2{
-		font-size: 22px;
-	}
-	#b { order: 1; }
-	#a { order: 2; }
-	#section-two img{
-		
-		}
-	.arrow {
-	font-size: 20px;
-	color: #FF455C;
-	padding-top: 0px;
-	}
-	.line::before{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 88%;
-		left:55%;
-	}
-	.line::after{
-		content: '';
-		position: absolute;
-		height:1px;
-		width: 20%;
-		background-color: black;
-		top: 88%;
-		left:25%;
-	}
-
-}
+#flex { 
+	display: flex;
+	flex-direction: column;
+	 }
