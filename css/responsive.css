@@ -35,6 +35,10 @@
 	#footer{
 		text-align: center;
 	}
+	.hideme{
+		height: auto;
+		width: auto;
+	}
 }
 
 
@@ -75,6 +79,10 @@
 		top: 88%;
 		left:25%;
 	}
+		.hideme{
+		height: auto;
+		width: auto;
+	}
 }
 
 
@@ -98,8 +106,12 @@
 
 	#b { order: 1; }
 	#a { order: 2; }
-	#section-two{
+
+	#section-one h1{
+		padding: 0px;
+		margin: 0px;
 	}
+
 	#section-two img{
 		bottom: 0%;
 		}	 
@@ -133,6 +145,10 @@
 		text-align: center;
 
 	}
+		.hideme{
+		height: auto;
+		width: auto;
+	}
 
 
 }
@@ -150,6 +166,10 @@
 	}
 	.hadder-text{
 	margin:0px;
+	}
+	#section-one h1{
+		padding: 0px;
+		margin: 0px;
 	}
 
 
@@ -189,5 +209,6 @@
 	#footer{
 		text-align: center;
 	}
+
 
 }
