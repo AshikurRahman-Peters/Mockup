@@ -8,15 +8,12 @@
 	01 - IMPORTED CSS
 	02 - DEFAULT CSS
 	03 - NAV CSS
-	04 - BANNER SECTION CSS
-	05 - ABOUT SECTION CSS
-	06 - SERVICE SECTION CSS
-	07 - WORK SECTION CSS
-	08 - TESTIMONIAL SECTION CSS
-	09 - BLOG SECTION CSS
-	10 - CONTACT SECTION CSS
-	11 - HIRE SECTION CSS
-	12 - FOOTER SECTION CSS
+	04 - HADDER CSS
+	05 - NEW ID CSS
+	06 - SECTION ON ID CSS
+	07 - SECTION TWO ID CSS
+	08 - FOOTER CSS
+
 
 	*/
 
@@ -97,7 +94,7 @@
 
 
 	/*================================================
-	02 - NAVBAR CSS
+	03 - NAV CSS
 	==================================================*/
 
 	.navbar-default{
@@ -110,7 +107,7 @@
 
 
 /*================================================
-	02 - NAVBAR CSS
+	04 - HADDER CSS
 ==================================================*/
 
 	#hadder button{
@@ -174,7 +171,7 @@
 			bottom: 0%;
 	}
 /*================================================
-	02 - NEW ID CSS
+	05 - NEW ID CSS
 ==================================================*/
 	#New{
 		background: url('../asset/hadder-bg.png');
@@ -202,7 +199,7 @@
 		border: 0px;
 		text-align: center;
 		margin-bottom: 50px;
-		margin-top: 44px;
+		
 		
 	}
 	.input-group{
@@ -210,7 +207,7 @@
 	} 
 
 /*================================================
-	02 - SECTION ONE ID CSS
+	06 - SECTION ONE ID CSS
 ==================================================*/
 	#section-one h1{
 		font-size: 50px;
@@ -228,7 +225,7 @@
 
 
 /*================================================
-	02 - SECTION TWO ID CSS
+	07 - SECTION TWO ID CSS
 ==================================================*/
 
 	#section-two i{
@@ -274,7 +271,7 @@
 		width: 70%
 	}
 /*================================================
-02 - FOOTER CSS
+08 - FOOTER CSS
 ==================================================*/
 
 	footer{
